@@ -1,1 +1,2 @@
-COUNTRY_FROM['nan']=[];
+COUNTRY_FROM.push({'nan': [
+]});
