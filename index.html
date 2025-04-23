@@ -11,14 +11,24 @@
         border: 0;
         font-family: sans-serif;
       }
+
+      #plot {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     </style>
   </head>
   <body>
-    <canvas id="plot"></canvas>
+    <div id="plot"></div>
 
     <script src="./plot/libraries/three.js"></script>
     <script src="./plot/libraries/three-orbit-controls.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/three-globe"></script>
 
+    <script src="./plot/countries.js"></script>
     <script>
       const COUNTRY_TO = {};
     </script>
